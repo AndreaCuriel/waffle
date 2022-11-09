@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Cómo agregar un tema a go hugo - Aprendices Visualpartnership</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="https://visualpartnership.xyz/wafflefavicon.png">
+
+  
+  
+  <link rel="stylesheet" href="../../css/style.min.5be197bf253db855657569a342e169a6749e12999268bb2729123d94d17d46af.css">
+  
+
+  
+    <meta name="description" content="Aprender paso a paso como agregar un tema a nuestro blog de Hugo"/>
+    <meta property="og:title" content="Cómo agregar un tema a go hugo"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://visualpartnership.xyz/waffle/posts/agregar-tema-hugo/"/>
+    
+    <meta property="og:description" content="Aprender paso a paso como agregar un tema a nuestro blog de Hugo"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@zerostaticio"/>
+    <meta name="twitter:creator" content="@zerostaticio"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="https://visualpartnership.xyz/waffle">Aprendices Visualpartnership</a>
+  <div class="menu-main">
+    <ul>
+        
+        
+            <li class="menu-item-about">
+                <a href="../../pages/about/">About</a>
+            </li>
+        
+            <li class="menu-item-posts">
+                <a href="../../posts/">Posts</a>
+            </li>
+        
+    </ul>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Cómo agregar un tema a go hugo<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <h3 id="qué-es-hugo">¿Qué es Hugo?</h3>
+<p>Es un generador de sitios estáticos de código abierto escrito en Go. Donde podrás encontrar temas desarrollados por la comunidad.
+Aprende <a href="https://visualpartnership.xyz/waffle/posts/gohugo/">más</a></p>
+<h3 id="qué-es-un-tema-de-hugo">¿Qué es un tema de Hugo?</h3>
+<p>Son plantillas de diseño Web estáticos que ofrece Hugo, alojados en GitHub, donde podrás elegir el Tema más adecuado para tu sitio.</p>
+<p>Podrás elegir y personalizar tu propio Blog, Galería, Portafolio, etc.</p>
+<p><a href="https://themes.gohugo.io/">Temas de Hugo</a></p>
+<h3 id="paso-a-paso-como-agregar-el-tema-a-go-hugo">Paso a Paso como agregar el tema a go Hugo.</h3>
+<ol>
+<li>Tener un buen de ganas de aprender y sin miedo al éxito.</li>
+<li>Contar con una cuenta de GitHub.</li>
+<li>Descarga Git en tu máquina.</li>
+<li>Conoce los comandos básicos de Git (<a href="https://visualpartnership.xyz/waffle/posts/que-es-git/">Aquí</a> puedes verlos y no abandonar nuestro blog).</li>
+<li><a href="https://visualpartnership.xyz/waffle/posts/gohugo/">Instala Hugo</a> en tu máquina.</li>
+<li>Respira profundo y felicítate por llegar a este punto.</li>
+<li>Elige el Tema que más te guste.</li>
+</ol>
+<ul>
+<li>Ingresa al sitio de Hugo para ver los temas que te ofrece.</li>
+<li>Elige y selecciona <code>Download</code> (lee super bien lo que te ofrece el tema antes).</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/99285898/190034464-34bbcb82-0291-41d3-93f3-f99502ad80cb.png" alt="tema"></p>
+<ul>
+<li>¡Alto! No entres en pánico, no se descargo nada en tu máquina. Esto es un repositorio de GitHub donde contiene todos los archivos del tema que elegiste.</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/99285898/190035974-a7155ea5-bb6a-4594-ab25-c8b3fbe39667.png" alt="repo-tema"></p>
+<ul>
+<li>Realiza un <code>Fork</code> del repositorio (Generará una copia en tu perfil de GitHub) y recuerda como se llama (hugo-theme-depetrope).</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/99285898/190036020-9ec916c1-3d61-479f-bcc7-12f7d79bdfd2.png" alt="fork-tema"></p>
+<p><img src="https://user-images.githubusercontent.com/99285898/190036042-29727206-b780-4d53-8773-771920df2bc4.png" alt="create-fork-tema"></p>
+<p><img src="https://user-images.githubusercontent.com/99285898/190036057-bd47578f-02f6-4a76-ac2a-d19c92d337ce.png" alt="ready-fork-tema"></p>
+<ol start="8">
+<li>¿Listo para lo bueno?  Consigue una bebida de tu gusto y mantenla cerca y segura (no queremos accidentes). Estira manos y cuello (¡Sin tirar tu bebida!)</li>
+<li>Genera el site de Hugo en tu máquina.</li>
+</ol>
+<ul>
+<li>
+<p>Crea una carpeta para tu repositorio. Yo lo llamare <code>Hugo-hermoso</code>.</p>
+</li>
+<li>
+<p><img src="https://user-images.githubusercontent.com/99285898/190036200-73300372-58fa-4fde-8de8-d55a3681c8ee.png" alt="carpeta-repo"></p>
+</li>
+<li>
+<p>¡Vamos a la terminal de git!  Entra a la ruta de la carpeta.</p>
+</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/99285898/190036273-3ad37a6d-b022-4db6-81c7-cd5c02e7c645.png" alt="ruta-repo"></p>
+<ul>
+<li>Corre el comando para generar el site:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo new site mi-blog-hermoso
+</span></span></code></pre></div><p><img src="https://user-images.githubusercontent.com/99285898/190036761-60bc44a5-6ae4-4f42-9912-2920200bd1bc.png" alt="site-hugo"></p>
+<ul>
+<li>Échale un ojo a tu folder, este ya no está vacío. Ya contiene la estructura básica de Hugo.</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/99285898/190036808-8099f64e-6d2c-4a4f-a51b-5a5b58e9dc4f.png" alt="files"></p>
+<ol start="10">
+<li>Es momento de agregar <code>Git</code> a tu proyecto, para convertirlo en el repositorio local.</li>
+</ol>
+<ul>
+<li>Entra desde la terminal a la carpeta que se creo en el paso anterior <code>mi-blog-hermoso</code>.</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/99285898/190036950-511a3fb5-4544-47e5-aa87-f107fca5d601.png" alt="mibloghermoso"></p>
+<ul>
+<li>Usa la instrucción:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git init 
+</span></span></code></pre></div><p><img src="https://user-images.githubusercontent.com/99285898/190037031-31287909-fccc-4e80-a25d-f63ed349859f.png" alt="gitinit"></p>
+<ol start="11">
+<li>Crea un nuevo repositorio en tu GitHub, el cual contendrá el proyecto en remoto. Yo le pondré de nombre de <code>Repo-Padre-Mi-Hermoso-blog</code>.</li>
+</ol>
+<ul>
+<li>Entra a tu GitHub, selecciona <code>Repositories</code> y <code>New</code> (aquí en español para no entrar en pánico: <code>Repositorios</code> y <code>uevo</code>).</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/99285898/190037116-b2292154-efb2-4e0b-bb69-09511e84ed6d.png" alt="repositorio"></p>
+<ul>
+<li>Dale un nombre y selecciona <code>Create repository</code>.</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/99285898/190037172-90e6656b-ea5e-4a9c-a2bc-8ddf1a3943a9.png" alt="createrepo"></p>
+<p><img src="https://user-images.githubusercontent.com/99285898/190037219-0f0e3260-aa64-4ebc-b59b-2ab2254def66.png" alt="readyrepo"></p>
+<ol start="12">
+<li>Es hora de la diversión. Conectemos nuestro repositorio local con el remoto.</li>
+</ol>
+<ul>
+<li>Ve a la terminal, dentro de la carpeta de tu site de Hugo (En mi caso la carpeta es <code>mi-blog-hermoso</code>) y corre el siguiente comando:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git remote add origin &lt;url de tu repositorio remoto&gt;
+</span></span></code></pre></div><p><img src="https://user-images.githubusercontent.com/99285898/190037452-158d67a5-3559-46cd-ae2e-e76b29ecc44d.png" alt="urlrepo"></p>
+<p><img src="https://user-images.githubusercontent.com/99285898/190037470-3c81a10a-18e5-4fcb-b94a-d38f1ab48377.png" alt="gitremote"></p>
+<ul>
+<li>Verifica con el comando:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git remote -v
+</span></span></code></pre></div><p><img src="https://user-images.githubusercontent.com/99285898/190037573-d076b5db-48b2-47bc-bd8d-1c9e648903bb.png" alt="gitremote-v"></p>
+<ol start="13">
+<li>Versiona los cambios en el local y remoto.</li>
+</ol>
+<ul>
+<li>Usa el siguiente comando para ver que cambios que no están versionados.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git status
+</span></span></code></pre></div><p><img src="https://user-images.githubusercontent.com/99285898/190037887-c4ab4ce4-c8bc-480b-b737-fc8dd31e1802.png" alt="gitstatus"></p>
+<ul>
+<li>Corre comando <code>git add .</code> y después haz commit con <code>git commit -m “Primer commit, Inicio del blog Hugo”</code>.</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/99285898/190038021-c186f22c-8b7b-4ed6-a400-08b42811ac0c.png" alt="guardarcambios"></p>
+<ul>
+<li>Sube los cambios al repositorio remoto con:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git push origin master
+</span></span></code></pre></div><p><img src="https://user-images.githubusercontent.com/99285898/190038136-f51479a1-8b24-4d83-a8b1-fb8588ffaf13.png" alt="pushmaster"></p>
+<ul>
+<li>Ve a tu repositorio remoto, actualiza la página y observa.</li>
+<li>Este paso se repetirá siempre que realices un cambio, para tener actualizado los repositorios.</li>
+</ul>
+<ol start="14">
+<li>Crea un submodulo de git en el repositorio local, el cual contendrá la estructura del tema que elegiste. (Ve lento pero seguro en cada uno de los siguientes pasos).</li>
+<li>Copia los archivos que contiene la carpeta <code>ExampleSite</code>.</li>
+</ol>
+<ul>
+<li>Ve al repositorio del tema que elegiste (Es el fork que hicimos en el paso 7)</li>
+<li>Descarga el repositorio, descomprime el archivo .zip e identifica la carpeta llamada <code>ExampleSite</code>.</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/99285898/190038386-0ce1d154-6956-4d9b-903e-8f2ee586d776.png" alt="descargarepotema"></p>
+<p><img src="https://user-images.githubusercontent.com/99285898/190038439-bb79d679-68a5-4a29-a9e5-2dc35d475d88.png" alt="examplesitefiles"></p>
+<ul>
+<li>Copia los archivos que están dentro de la carpeta &rsquo;exampleSite&rsquo; (elige únicamente un archivo config.toml), pégalos dentro de tu repositorio local y selecciona rescribir.</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/99285898/190534017-9444cf58-9d18-4c90-884f-145196014f4c.png" alt="seleccionarexamplesite"></p>
+<p><img src="https://user-images.githubusercontent.com/99285898/190534089-0150a594-dc82-4219-bc66-5ba8a531ff0f.png" alt="copiarexamnplesite"></p>
+<ul>
+<li>Versiona los cambios en el repositorio local y remoto.</li>
+</ul>
+<ol start="16">
+<li>Verifica que la ubicación del tema este correcto en el archivo de configuración y después versiona los cambios.</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/99285898/190534286-33d113d7-18ca-47d4-8ba9-fa44b8c33df3.png" alt="configuracionlista"></p>
+<ol start="17">
+<li>Corre el siguiente comando para visualizar tu blog en localhost (Utiliza la URL que te arrojara).</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo server
+</span></span></code></pre></div><p><img src="https://user-images.githubusercontent.com/99285898/190534449-85575385-a3a2-438d-bc88-d7ee382e271e.png" alt="image"></p>
+<p><img src="https://user-images.githubusercontent.com/99285898/190534469-fa16a38c-47dd-4d54-a5f7-879a638f8a6b.png" alt="image"></p>
+<h3 id="has-logrado-agregar-un-tema-de-hugo">¡¡¡¡Has logrado agregar un tema de Hugo!!!!</h3>
+<p>No te pierdas el post para subir tu blog y personalizarlo.</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/visual_partner" title="twitter" target="_blank" rel="noopener">
+          <img src="../../images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/visual_partner" title="github" target="_blank" rel="noopener">
+          <img src="../../images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/carlogilmar" title="linkedin" target="_blank" rel="noopener">
+          <img src="../../images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="../../js/bundle.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+</html>
